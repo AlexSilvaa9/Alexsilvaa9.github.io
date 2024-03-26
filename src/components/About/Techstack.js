@@ -1,69 +1,69 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
+import  cSharpImage  from "../../Assets/TechCards/c-sharp.png";
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
+
   DiGit,
   DiJava,
+  DiMysql,
+  DiDocker,
+  DiHtml5,
+  DiCss3,
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
+
+  SiOracle,
+  SiR,
+  SiPython,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <SiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <DiJava/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+        <SiOracle />
+      </Col>
+      {/* Asegúrate de importar o definir los siguientes íconos */}
+      {/* Por ejemplo, si no tienes definido "Matlab" y "C#", debes importarlos */}
+
+
+      {/* <Col xs={4} md={2} className="tech-icons">
+        {/* Aquí deberías usar un ícono de Matlab */}
+      {/* </Col>  */}
+
+
+      {/* {<Col xs={4} md={2} className="tech-icons">
+      <img src={cSharpImage} alt="C#" style={{ maxWidth: "100%", height: "auto" }} /> {/* Aplica estilos para ajustar el tamaño */}
+      {/* </Col>} */}
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiR />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <DiMysql />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
+      {/* <Col xs={4} md={2} className="tech-icons">
+        {/* Aquí deberías usar un ícono de Bash */}
+      {/* </Col> */} 
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <DiDocker />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
+        <DiHtml5/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+        <DiCss3/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col>
+      
     </Row>
   );
 }
