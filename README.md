@@ -1,5 +1,8 @@
 This is my personal portfolio which features some of my github projects as well as my resume and technical skills.
 
+<div align="center">
+  <img alt="Demo" src="./Images/readme.png" />
+</div>
 
 
 Originaly designed and developed by <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> <br/>
