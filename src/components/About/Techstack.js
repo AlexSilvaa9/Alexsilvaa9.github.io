@@ -15,6 +15,8 @@ import {
   SiOracle,
   SiR,
   SiPython,
+  SiMongodb,
+  SiCsharp,
 } from "react-icons/si";
 
 function Techstack() {
@@ -44,6 +46,13 @@ function Techstack() {
 
       <Col xs={4} md={2} className="tech-icons">
         <SiR />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMongodb />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCsharp />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMysql />
