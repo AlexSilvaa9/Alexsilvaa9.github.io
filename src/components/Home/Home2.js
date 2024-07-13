@@ -24,11 +24,11 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  Bioinformatic
+                  Data Scientist
                   {" "}          
                 </b>
               </i>
-              with experience in data analysis, machine learning, and data visualization.
+              specialized in health with experience in data analysis, machine learning, and data visualization.
               <br />
               <br />I am fluent in classics like
               <i>
@@ -38,7 +38,7 @@ function Home2() {
               <br />
               My field of Interest's are &nbsp;
               <i>
-                <b className="purple">AI</b> and
+                <b className="purple">AI (Large Language models)</b> and
                 {" "}
                 <b className="purple">
                   Data Science.

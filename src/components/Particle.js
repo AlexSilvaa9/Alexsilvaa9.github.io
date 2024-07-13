@@ -5,44 +5,58 @@ function Particle() {
   return (
     <Particles
       id="tsparticles"
-      params={{
+      options={{
         particles: {
           number: {
-            value: 160,
+            value: 120,
             density: {
               enable: true,
-              value_area: 1500,
+              value_area: 1200,
             },
           },
           line_linked: {
-            enable: false,
-            opacity: 0.03,
+            enable: true,
+            opacity: 0.1, // Very subtle connection
           },
           move: {
-            direction: "right",
-            speed: 0.05,
+            direction: "none",
+            speed: 1.0, // Moderate speed
           },
           size: {
-            value: 1,
+            value: 1.5,
           },
           opacity: {
+            value: 0.5,
             anim: {
               enable: true,
-              speed: 1,
-              opacity_min: 0.05,
+              speed: 0.4,
+              opacity_min: 0,
+              sync: false,
             },
+          },
+          color: {
+            value: "#ffffff", // White color
           },
         },
         interactivity: {
           events: {
-            onclick: {
+          
+            onhover: {
               enable: true,
-              mode: "push",
+              mode: "connect",
             },
           },
           modes: {
-            push: {
-              particles_nb: 1,
+            bubble: {
+              distance: 250,
+              size: 6,
+            },
+            connect: {
+              distance: 100, // Distance for connections
+              line_linked: {
+                opacity: 0.15, // Subtle connection
+              },
+              radius: 80,
             },
           },
         },
