@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.a026eef3.css",
+    "main.css": "/static/css/main.dedc1729.css",
     "main.js": "/static/js/main.954049bc.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
     "static/media/diabetes.jpg": "/static/media/diabetes.fcb0245b6b141d848e46.jpg",
@@ -10,14 +10,14 @@
     "static/media/home-main.svg": "/static/media/home-main.6a496b96dc9533d9ed3c3d405d57247d.svg",
     "static/media/c-sharp.png": "/static/media/c-sharp.4a32f53d425c7ad4cb05.png",
     "static/media/Alejandro_Silva_Rodriguez_CV.pdf": "/static/media/Alejandro_Silva_Rodriguez_CV.a6491f1572bd952a72e4.pdf",
-    "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
-    "main.a026eef3.css.map": "/static/css/main.a026eef3.css.map",
+    "static/media/pre.svg": "/static/media/pre.b8b2dbde34ce516b2e9c.svg",
+    "main.dedc1729.css.map": "/static/css/main.dedc1729.css.map",
     "main.954049bc.js.map": "/static/js/main.954049bc.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a026eef3.css",
+    "static/css/main.dedc1729.css",
     "static/js/main.954049bc.js"
   ]
 }
