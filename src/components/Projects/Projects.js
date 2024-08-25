@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import diabetes from "../../Assets/Projects/diabetes.jpg";
 import breast_cancer from "../../Assets/Projects/breast_cancer_project.png";
+import GymDiary from "../../Assets/Projects/GymDiary.png";
 
 function Projects() {
   return (
@@ -37,6 +38,17 @@ function Projects() {
                 description="The project showcases analisys and development of various machine learning algorithms for predicting survival rates in breast cancer. It includes the deployment of the best model on a web app"
                 ghLink="https://github.com/AlexSilvaa9/BreasCancerSurvivalPrediction"
                 demoLink="https://alexsilvaa9.github.io/BreasCancerSurvivalPrediction/" 
+              />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+                imgPath={GymDiary}
+                
+                isBlog={false}
+                title="GymDiary"
+                description="A web app designed for tracking workouts and nutrition, offering features like meal logging, exercise tracking, and progress monitoring. It includes a dark/light mode switch and is optimized for both desktop and mobile use. Built with React.js for the frontend and Node.js with Express.js for the backend, it’s deployed on Vercel and GitHub Pages."
+                ghLink="https://github.com/AlexSilvaa9/GymDiaryFrontReact"
+                demoLink="https://alexsilvaa9.github.io/GymDiaryFrontReact" 
               />
           </Col>
         </Row>

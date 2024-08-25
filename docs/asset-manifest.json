@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.dedc1729.css",
-    "main.js": "/static/js/main.954049bc.js",
+    "main.js": "/static/js/main.ac567b38.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
     "static/media/diabetes.jpg": "/static/media/diabetes.fcb0245b6b141d848e46.jpg",
     "static/media/about.png": "/static/media/about.fe6cbb979013e5c55e21.png",
+    "static/media/GymDiary.png": "/static/media/GymDiary.399398ac46fb33742211.png",
     "static/media/breast_cancer_project.png": "/static/media/breast_cancer_project.46453fc883778d491931.png",
     "static/media/avatar.webp": "/static/media/avatar.4dce96a2e8c31ec2dc82.webp",
     "static/media/home-main.svg": "/static/media/home-main.6a496b96dc9533d9ed3c3d405d57247d.svg",
@@ -13,11 +14,11 @@
     "index.html": "/index.html",
     "static/media/pre.svg": "/static/media/pre.b8b2dbde34ce516b2e9c.svg",
     "main.dedc1729.css.map": "/static/css/main.dedc1729.css.map",
-    "main.954049bc.js.map": "/static/js/main.954049bc.js.map",
+    "main.ac567b38.js.map": "/static/js/main.ac567b38.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dedc1729.css",
-    "static/js/main.954049bc.js"
+    "static/js/main.ac567b38.js"
   ]
 }
