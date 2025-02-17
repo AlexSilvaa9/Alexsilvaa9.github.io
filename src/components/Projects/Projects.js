@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import diabetes from "../../Assets/Projects/diabetes.jpg";
+import DataWarehouseDashboard from "../../Assets/Projects/DataWarehouseDashboard.png";
 import breast_cancer from "../../Assets/Projects/breast_cancer_project.png";
 import GymDiary from "../../Assets/Projects/GymDiary.png";
 
@@ -20,13 +20,13 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={diabetes}
+              imgPath={DataWarehouseDashboard}
               
               isBlog={false}
-              title="Diabetes Prediction"
-              description="Welcome to the Intelligent Systems Diabetes Prediction Project! This project serves as the culmination of the first course in Intelligent Systems, aimed at leveraging machine learning techniques to predict whether a patient has diabetes. The primary focus lies in developing various classifiers utilizing the scikit-learn framework."
-              ghLink="https://github.com/AlexSilvaa9/Diabetes_prediction_scikitlearn"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Data Warehouse for Hospital Medication Expenses"
+              description="A data warehouse designed to analyze medication expenses in Intensive Care Units (ICUs) across hospitals in the U.S. The project includes an ETL process for structuring clinical data, a multidimensional cube for advanced analysis, and interactive Power BI reports. It enables the identification of consumption patterns and optimization of hospital resource management."
+              ghLink="https://github.com/AlexSilvaa9/HealthcareDataWarehouse"
+              // demoLink="" <--------Please include a demo link here
             />
           </Col>
           <Col md={4} className="project-card">
