@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import DataWarehouseDashboard from "../../Assets/Projects/DataWarehouseDashboard.png";
 import breast_cancer from "../../Assets/Projects/breast_cancer_project.png";
 import GymDiary from "../../Assets/Projects/GymDiary.png";
-
+import TFG from "../../Assets/Projects/TFG.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -18,6 +18,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={TFG}
+              
+              isBlog={false}
+              title="Optimizing Small Language Models for ClinicalSummarization"
+              description="Explored the use of Small Language Models for clinical note summarization, applying advanced prompting and a multi-question RAG architecture. Fine-tuned LLaMA 3.2 and validated performance with expert feedback. Integrated the optimized model into a functional web app for interactive summary generation."
+              ghLink="https://github.com/AlexSilvaa9/tfg"
+              // demoLink="" <--------Please include a demo link here
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={DataWarehouseDashboard}
