@@ -25,7 +25,7 @@ function Projects() {
               isBlog={false}
               title="Optimizing Small Language Models for ClinicalSummarization"
               description="Explored the use of Small Language Models for clinical note summarization, applying advanced prompting and a multi-question RAG architecture. Fine-tuned LLaMA 3.2 and validated performance with expert feedback. Integrated the optimized model into a functional web app for interactive summary generation."
-              ghLink="https://github.com/AlexSilvaa9/tfg"
+              ghLink="https://github.com/AlexSilvaa9/ehr-summarization-rag-distillation"
               // demoLink="" <--------Please include a demo link here
             />
           </Col>
