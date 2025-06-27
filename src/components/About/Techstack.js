@@ -22,6 +22,26 @@ import {
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons" style={{ textAlign: "center" }}>
+  <a
+    href="https://www.credly.com/badges/b6dcb244-7151-4347-8023-66aa5fa7eae0/public_url"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{ textDecoration: "none" }}
+  >
+    <img
+      src={require("../../Assets/aws-certified-cloud-practitioner.png")}
+      alt="AWS Cloud Practitioner Badge"
+      style={{
+        width: "100%",
+        maxWidth: "100px",
+        height: "auto",
+        borderRadius: "10px",
+      }}
+    />
+  </a>
+</Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <SiPython />
       </Col>
@@ -74,6 +94,7 @@ function Techstack() {
       </Col>
       
     </Row>
+    
   );
 }
 
