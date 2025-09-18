@@ -24,6 +24,26 @@ function Techstack() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons" style={{ textAlign: "center" }}>
   <a
+    href="https://www.credly.com/badges/c6a22638-a149-4f1f-b358-c81463d73056/public_url"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{ textDecoration: "none" }}
+  >
+    <img
+      src={require("../../Assets/aws-certified-solutions-architect-associate.png")}
+      alt="AWS Solutions Architect Associate Badge"
+      style={{
+        width: "100%",
+        maxWidth: "100px",
+        height: "auto",
+        borderRadius: "10px",
+      }}
+    />
+  </a>
+</Col>
+
+      <Col xs={4} md={2} className="tech-icons" style={{ textAlign: "center" }}>
+  <a
     href="https://www.credly.com/badges/b6dcb244-7151-4347-8023-66aa5fa7eae0/public_url"
     target="_blank"
     rel="noopener noreferrer"
