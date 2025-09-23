@@ -11,8 +11,8 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Alex Silva </span>
             from <span className="purple"> Malaga, Spain.</span>
             <br />
-            I am currently studying Health Engineering (Bioinformatics) at University of Malaga.
-            
+            Currently, I am working at <span className="purple">Accenture in Madrid</span>, 
+  focusing on building scalable and reliable software products.            
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
