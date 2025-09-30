@@ -17,16 +17,17 @@ function ProjectCards(props) {
         </Card.Text>
         <div className="mt-auto">
           <div className="d-flex flex-wrap gap-2 justify-content-center">
-            <Button 
-              variant="primary" 
-              href={props.ghLink} 
-              target="_blank"
-              className="btn-project"
-            >
-              <BsGithub /> &nbsp;
-              {props.isBlog ? "Blog" : "GitHub"}
-            </Button>
-            
+            {props.ghLink && (
+              <Button
+                variant="primary"
+                href={props.ghLink}
+                target="_blank"
+                className="btn-project"
+              >
+                <BsGithub /> &nbsp;
+                {props.isBlog ? "Blog" : "GitHub"}
+              </Button>
+            )}
             {!props.isBlog && props.demoLink && (
               <Button
                 variant="primary"

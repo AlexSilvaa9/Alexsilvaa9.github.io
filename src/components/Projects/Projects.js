@@ -6,6 +6,7 @@ import DataWarehouseDashboard from "../../Assets/Projects/DataWarehouseDashboard
 import breast_cancer from "../../Assets/Projects/breast_cancer_project.png";
 import GymDiary from "../../Assets/Projects/GymDiary.png";
 import TFG from "../../Assets/Projects/TFG.png";
+import AWS from "../../Assets/Projects/aws.jpeg";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -18,6 +19,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }} className="g-4">
+          <Col md={4} className="project-card d-flex">
+          <ProjectCard
+            imgPath={AWS} 
+            isBlog={false}
+            title="Building Scalable Architectures on AWS"
+            description="Designed and deployed multiple AWS cloud solutions combining compute, networking, storage, and serverless services. Implemented a three-tier web application with VPC security, EC2 Auto Scaling, and RDS migration using DMS. Built a serverless event-driven pipeline with Lambda and S3 for data processing and lifecycle automation. Delivered a static website globally with CloudFront and S3, optimizing security and performance. Configured EFS for scalable shared storage across instances."
+            // ghLink="" <--------You can add this later if you publish it on GitHub
+            // demoLink="" <--------You can add this later if you deploy one
+          />
+        </Col>
+
         <Col md={4} className="project-card d-flex">
             <ProjectCard
               imgPath={TFG}
