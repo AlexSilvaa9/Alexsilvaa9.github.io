@@ -17,8 +17,8 @@ function Projects() {
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={4} className="project-card">
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }} className="g-4">
+        <Col md={4} className="project-card d-flex">
             <ProjectCard
               imgPath={TFG}
               
@@ -29,7 +29,7 @@ function Projects() {
               // demoLink="" <--------Please include a demo link here
             />
           </Col>
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card d-flex">
             <ProjectCard
               imgPath={DataWarehouseDashboard}
               
@@ -40,7 +40,7 @@ function Projects() {
               // demoLink="" <--------Please include a demo link here
             />
           </Col>
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card d-flex">
             <ProjectCard
                 imgPath={breast_cancer}
                 
@@ -51,7 +51,7 @@ function Projects() {
                 demoLink="https://alexsilvaa9.github.io/BreasCancerSurvivalPrediction/" 
               />
           </Col>
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card d-flex">
             <ProjectCard
                 imgPath={GymDiary}
                 
