@@ -6,7 +6,7 @@ import DataWarehouseDashboard from "../../Assets/Projects/DataWarehouseDashboard
 import breast_cancer from "../../Assets/Projects/breast_cancer_project.png";
 import GymDiary from "../../Assets/Projects/GymDiary.png";
 import TFG from "../../Assets/Projects/TFG.png";
-import AWS from "../../Assets/Projects/aws.jpeg";
+import AWS from "../../Assets/Projects/aws.jpg";
 function Projects() {
   return (
     <Container fluid className="project-section">
