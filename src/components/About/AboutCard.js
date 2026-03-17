@@ -12,7 +12,7 @@ function AboutCard() {
             from <span className="purple"> Malaga, Spain.</span>
             <br />
             Currently, I am working at <span className="purple">Accenture in Madrid</span>, 
-  focusing on building scalable and reliable software products.            
+  focused on DevSecOps architecture, cloud platforms, and secure API development.
             <br />
             Apart from coding, some other activities that I love to do!
           </p>

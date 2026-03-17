@@ -3,10 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import DataWarehouseDashboard from "../../Assets/Projects/DataWarehouseDashboard.png";
-import breast_cancer from "../../Assets/Projects/breast_cancer_project.png";
 import GymDiary from "../../Assets/Projects/GymDiary.png";
 import TFG from "../../Assets/Projects/TFG.png";
 import AWS from "../../Assets/Projects/aws.jpg";
+import Kubernetes from "../../Assets/Projects/kubernetes.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -16,19 +16,29 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Projects focused on cloud architecture, DevOps automation, and scalable backend systems.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }} className="g-4">
           <Col md={4} className="project-card d-flex">
           <ProjectCard
             imgPath={AWS} 
             isBlog={false}
-            title="Building Scalable Architectures on AWS"
-            description="Designed and deployed multiple AWS cloud solutions combining compute, networking, storage, and serverless services. Implemented a three-tier web application with VPC security, EC2 Auto Scaling, and RDS migration using DMS. Built a serverless event-driven pipeline with Lambda and S3 for data processing and lifecycle automation. Delivered a static website globally with CloudFront and S3, optimizing security and performance. Configured EFS for scalable shared storage across instances."
+            title="Scalable Cloud Architecture on AWS"
+            description="Designed and implemented a secure three-tier architecture on AWS using VPC, Auto Scaling on EC2, and managed data services on RDS. Built serverless workflows with Lambda and S3 for event-driven processing and automation. Configured CloudFront distribution and shared storage patterns for high availability, performance, and operational resilience."
             // ghLink="" <--------You can add this later if you publish it on GitHub
             // demoLink="" <--------You can add this later if you deploy one
           />
         </Col>
+
+        <Col md={4} className="project-card d-flex">
+            <ProjectCard
+              imgPath={Kubernetes}
+              isBlog={false}
+              title="Microservices Platform with Spring Cloud on Kubernetes"
+              description="Built a cloud-native microservices platform with Spring Boot and Spring Cloud, deployed on Kubernetes (Minikube). Implemented centralized authentication, service discovery, externalized configuration, and load-balanced communication between services. Automated deployment workflows and integration testing to improve reliability and delivery speed in containerized environments."
+              ghLink="https://github.com/AlexSilvaa9/modern-microservices-platform"
+            />
+          </Col>
 
         <Col md={4} className="project-card d-flex">
             <ProjectCard
@@ -51,17 +61,6 @@ function Projects() {
               ghLink="https://github.com/AlexSilvaa9/HealthcareDataWarehouse"
               // demoLink="" <--------Please include a demo link here
             />
-          </Col>
-          <Col md={4} className="project-card d-flex">
-            <ProjectCard
-                imgPath={breast_cancer}
-                
-                isBlog={false}
-                title="Breast Cancer Analisys and Prediction"
-                description="The project showcases analisys and development of various machine learning algorithms for predicting survival rates in breast cancer. It includes the deployment of the best model on a web app"
-                ghLink="https://github.com/AlexSilvaa9/BreasCancerSurvivalPrediction"
-                demoLink="https://alexsilvaa9.github.io/BreasCancerSurvivalPrediction/" 
-              />
           </Col>
           <Col md={4} className="project-card d-flex">
             <ProjectCard

@@ -21,25 +21,31 @@ function Home2() {
             <p className="home-about-body">
               I am a passionate
               <i>
-                <b className="purple"> Software Developer </b>
+                <b className="purple"> Java Full Stack Developer </b>
               </i>
-              with a strong foundation in backend and frontend technologies,
-              specialized in cloud architectures and data-driven applications.
+              focused on <b className="purple">DevSecOps architecture</b>,
+              cloud-native delivery, and scalable enterprise platforms.
               <br />
               <br />
-              I have hands-on experience designing, developing, testing, and
+              I am currently part of the architecture team at
+              <b className="purple"> Accenture Madrid</b>, contributing to an
+              internal framework that standardizes and accelerates software
+              delivery with Spring Boot and Angular.
+              <br />
+              <br />
+              I have hands-on experience designing, developing, securing, and
               deploying
               <i>
-                <b className="purple"> full stack solutions </b>
+                <b className="purple"> enterprise-grade APIs and platforms </b>
               </i>
-              using <b className="purple">Java Spring Boot</b> and{" "}
-              <b className="purple">Angular</b>, while ensuring clean,
-              maintainable, and scalable code.
+              using <b className="purple">Java 17, Spring Boot</b>, and{" "}
+              <b className="purple">Angular</b>, while applying clean code,
+              testing, and secure development practices.
               <br />
               <br />
-              Skilled in <b className="purple">Python</b>, with experience
-              integrating <b className="purple">machine learning</b> into
-              intelligent software products.
+              Strongly oriented to <b className="purple">CI/CD automation</b>,
+              reusable modules, and platform engineering with Kubernetes,
+              Vault, and infrastructure as code principles.
               <br />
               <br />
               I am also an
@@ -49,12 +55,14 @@ function Home2() {
                   AWS Certified Solutions Architect – Associate{" "}
                 </b>
               </i>
-              with practical knowledge in CI/CD pipelines, containerization (
-              <b className="purple">Docker</b>), and modern DevOps practices.
+              with practical knowledge in
+              <b className="purple"> AWS, Docker, Kubernetes</b>, and secure
+              software architecture.
               <br />
               <br />
-              I enjoy building innovative, reliable, and impactful solutions,
-              always seeking new
+              I enjoy building reliable platforms that help teams deliver
+              faster, safer, and with higher quality.
+              Always seeking new
               <i>
                 <b className="purple"> challenges </b>
               </i>
