@@ -30,15 +30,15 @@ function Projects() {
           />
         </Col>
 
-        <Col md={4} className="project-card d-flex">
-            <ProjectCard
-              imgPath={Kubernetes}
-              isBlog={false}
-              title="Microservices Platform with Spring Cloud on Kubernetes"
-              description="Built a cloud-native microservices platform with Spring Boot and Spring Cloud, deployed on Kubernetes (Minikube). Implemented centralized authentication, service discovery, externalized configuration, and load-balanced communication between services. Automated deployment workflows and integration testing to improve reliability and delivery speed in containerized environments."
-              ghLink="https://github.com/AlexSilvaa9/modern-microservices-platform"
-            />
-          </Col>
+  <Col md={4} className="project-card d-flex">
+  <ProjectCard
+    imgPath={Kubernetes}
+    isBlog={false}
+    title="Microservices Platform on Kubernetes"
+    description="Designed and developed a modular microservices platform with Spring Boot, Angular SSR, Kafka, Docker, and Kubernetes. Implemented hybrid authentication, RBAC authorization, asynchronous event-driven communication, infrastructure automation, and end-to-end testing following production-oriented architecture practices."
+    ghLink="https://github.com/AlexSilvaa9/modern-microservices-platform"
+  />
+</Col>
 
         <Col md={4} className="project-card d-flex">
             <ProjectCard
